@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+    <command alias="Safari"  value="open -a Safari $f"/>
+    <command alias="Mail"    value="open -a Mail $f"/>
+    <command alias="Preview" value="open -a Preview $f"/>
+    <command alias="xopen"    value="open $f"            type="system"/>
+    <command alias="xopenFM"  value="open -a Finder $f"  type="system" display="Finder"/>
+    <command alias="xopenURL" value="open $f"            type="system"/>
+
+    <command alias="adobe" value="&quot;C:/Program Files (x86)/Adobe/Reader 11.0/Reader/AcroRd32.exe&quot; $f" />
+    <command alias="cmd" value="cmd /c start cmd.exe" />
+    <command alias="edit" value="javaw.exe -jar c:/program_files/jedit/jedit.jar -reuseview $f" type="system" />
+    <command alias="editPad" value="C:/Program Files/Just Great Software/EditPadPro7/EditPadPro7.exe $f" />
+    <command alias="emacs" value="d:/program_files/emacs/bin/emacsclient.exe -n --alternate-editor d:/Program_Files/emacs-master/bin/runemacs.exe $f" />
+    <command alias="excel" value="&quot;C:/Program Files (x86)/Microsoft Office/OFFICE11/excel.exe&quot; $f" />
+    <command alias="gimp" value="&quot;C:/Program Files (x86)/GIMP-2.0/bin/gimp-2.6.exe&quot; $f" />
+    <command alias="irfan" value="D:/Program_Files/irfanview/i_view32.exe $f" />
+    <command alias="mplayer" value="mplayer.bat $f" />
+    <command alias="notepad" value="notepad.exe $f" />
+    <command alias="openCurDir" value="explorer.exe $p" />
+    <command alias="regsvr32" value="C:/Windows/System32/regsvr32.exe $f" />
+    <command alias="winamp" value="D:/Program_Files/winamp/winamp.exe $f" />
+    <command alias="winamp /add" value="D:/Program_Files/winamp/winamp.exe /add $f" />
+    <command alias="write" value="write.exe $f" />
+
+</commands>
