@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- See http://trac.mucommander.com/wiki/ActionKeyMap for information on how to customize this file -->
+<keymap version="0.9.0">
+    <action id="GoToParent" keystroke="BACK_SPACE" alt_keystroke="ctrl PAGE_UP"/>
+    <action id="Mkfile" keystroke="shift F7" alt_keystroke="shift F4"/>
+    <action id="Rename" keystroke="F2"/>
+    <action id="OpenWith_irfan" keystroke="shift ctrl I"/>
+    <action id="ShowPreferences" keystroke="shift ctrl P"/>
+    <action id="RecallNextWindow"/>
+    <action id="Delete" keystroke="shift DELETE"/>
+    <action id="AddTab"/>
+    <action id="UnmarkAll"/>
+    <action id="PermanentDelete" keystroke="DELETE"/>
+    <action id="OpenInOtherPanel" keystroke="ctrl LEFT" alt_keystroke="ctrl RIGHT"/>
+    <action id="SortByDate"/>
+    <action id="RecallPreviousWindow"/>
+    <action id="ShowBookmarksQL" keystroke="alt 4" alt_keystroke="ctrl D"/>
+    <action id="ShowRecentLocationsQL" keystroke="alt 2" alt_keystroke="alt BACK_SPACE"/>
+    <action id="Open" keystroke="ENTER" alt_keystroke="ctrl PAGE_DOWN"/>
+    <action id="OpenWith_emacs" keystroke="shift ctrl M"/>
+    <action id="OpenWith_cmd" keystroke="shift ctrl T"/>
+    <action id="MarkSelectedFile" keystroke="INSERT"/>
+</keymap>
