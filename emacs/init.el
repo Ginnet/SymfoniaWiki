@@ -1,3 +1,12 @@
+
+;; This file is in %appdata%/Roaming/.emacs.d
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (add-to-list 'load-path "/usr/share/emacs/site-lisp")
 (server-start)
 (require 'recentf)
@@ -426,6 +435,7 @@
     (prefer-coding-system 'utf-8-dos)
     (set-terminal-coding-system 'cp852)
     (set-keyboard-coding-system 'cp852)
+    (setq find-program "ufind")
   )
   (progn ;; else
     (setq backup-directory-alist '(("." . "/m/temp/emacs_temp")))
@@ -707,6 +717,17 @@ Analityka rodzaju &
  '(kept-new-versions 6)
  '(line-number-display-limit-width 500)
  '(mode-require-final-newline nil)
+ '(proced-format-alist
+   (quote
+    ((short user pid tree pcpu pmem vsize start time
+            (args comm))
+     (medium user pid tree pcpu pmem vsize rss ttname state start time
+             (args comm))
+     (long user euid group pid tree pri nice pcpu pmem vsize rss ttname state start time
+           (args comm))
+     (verbose user euid group egid pid ppid tree pgrp sess pri nice pcpu pmem state thcount vsize rss ttname tpgid minflt majflt cminflt cmajflt start time utime stime ctime cutime cstime etime
+              (args comm)))))
+ '(revert-without-query (quote (".*")))
  '(safe-local-variable-values
    (quote
     ((py-indent-offset . 4)

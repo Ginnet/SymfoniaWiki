@@ -40,7 +40,7 @@
         <visible>true</visible>
     </toolbar>
     <progress_dialog>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <close_when_finished>true</close_when_finished>
     </progress_dialog>
     <command_bar>
